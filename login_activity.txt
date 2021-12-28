@@ -1,0 +1,64 @@
+
+USER: test           LOGIN AT: 2020-11-15 11:38:28.884        FAILED    
+USER: test           LOGIN AT: 2020-11-15 11:38:31.672        FAILED    
+USER: ff             LOGIN AT: 2020-11-15 11:38:34.644        FAILED    
+USER:                LOGIN AT: 2020-11-15 11:38:38.851        FAILED    
+USER: admin          LOGIN AT: 2020-11-15 11:38:44.634        SUCCESS   
+USER: test           LOGIN AT: 2020-11-16 08:49:04.931        SUCCESS   
+USER:                LOGIN AT: 2020-11-16 12:42:55.975        FAILED    
+USER: test           LOGIN AT: 2020-11-16 12:43:01.098        FAILED    
+USER: test           LOGIN AT: 2020-11-16 12:43:05.158        SUCCESS   
+USER:                LOGIN AT: 2020-11-17 08:22:56.631        FAILED    
+USER: test           LOGIN AT: 2020-11-17 08:23:08.623        SUCCESS   
+USER:                LOGIN AT: 2020-11-17 08:41:05.085        FAILED    
+USER:                LOGIN AT: 2020-11-17 09:07:46.309        FAILED    
+USER: test           LOGIN AT: 2020-11-17 09:20:40.735        SUCCESS   
+USER: test           LOGIN AT: 2020-11-17 09:29:14.676        SUCCESS   
+USER: test           LOGIN AT: 2020-11-17 09:54:08.47         SUCCESS   
+USER: test           LOGIN AT: 2020-11-17 09:55:29.933        SUCCESS   
+USER: test           LOGIN AT: 2020-11-17 09:56:32.698        SUCCESS   
+USER: test           LOGIN AT: 2020-11-17 10:28:18.664        SUCCESS   
+USER:                LOGIN AT: 2020-11-17 10:29:40.858        FAILED    
+USER: test           LOGIN AT: 2020-11-17 10:29:50.983        SUCCESS   
+USER: test           LOGIN AT: 2020-11-17 10:32:13.871        SUCCESS   
+USER: test           LOGIN AT: 2020-11-17 10:36:33.334        SUCCESS   
+USER: test           LOGIN AT: 2020-11-17 10:37:30.473        SUCCESS   
+USER: test           LOGIN AT: 2020-11-17 10:38:26.69         SUCCESS   
+USER: test           LOGIN AT: 2020-11-17 10:44:45.201        SUCCESS   
+USER: test           LOGIN AT: 2020-11-17 10:45:30.37         SUCCESS   
+USER: test           LOGIN AT: 2020-11-17 10:46:30.019        SUCCESS   
+USER: test           LOGIN AT: 2020-11-17 10:46:56.761        SUCCESS   
+USER: test           LOGIN AT: 2020-11-17 10:48:37.078        SUCCESS   
+USER: test           LOGIN AT: 2020-11-17 10:53:00.737        SUCCESS   
+USER: test           LOGIN AT: 2020-11-17 11:00:05.836        SUCCESS   
+USER: test           LOGIN AT: 2020-11-18 11:00:49.594        SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 09:55:25.833        SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 09:56:31.48         SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 10:57:05.579        SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 10:58:32.083        SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 10:59:50.792        SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 11:27:49.132        SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 11:30:31.712        SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 11:36:07.835        SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 11:39:38.361        SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 11:40:34.881        SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 11:43:08.156        SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 11:56:49.551        SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 12:28:26.7          SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 12:29:29.555        SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 12:31:23.629        SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 12:44:18.856        SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 12:54:26.186        SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 12:56:18.616        SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 12:57:02.74         SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 12:57:28.989        SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 13:01:24.786        SUCCESS   
+USER: test           LOGIN AT: 2020-11-19 13:02:29.955        SUCCESS   
+USER:                LOGIN AT: 2021-12-28 12:02:45.368        FAILED    
+USER: test           LOGIN AT: 2021-12-28 12:03:06.202        FAILED    
+USER: test           LOGIN AT: 2021-12-28 12:03:42.505        FAILED    
+USER: admin          LOGIN AT: 2021-12-28 12:03:55.489        FAILED    
+USER: admin          LOGIN AT: 2021-12-28 12:11:28.002        FAILED    
+USER: test           LOGIN AT: 2021-12-28 12:11:42.469        FAILED    
+USER: test           LOGIN AT: 2021-12-28 12:24:43.97         SUCCESS   
+USER: test           LOGIN AT: 2021-12-28 12:35:44.752        SUCCESS   

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.AddAppointmentController">
+   <children>
+      <VBox layoutX="455.0" layoutY="120.0" prefHeight="360.0" prefWidth="190.0" spacing="10.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="44.0" prefWidth="190.0">
+               <children>
+                  <Label fx:id="appIdLabel" text="Appointment ID:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox fx:id="appTitlelabel" alignment="CENTER" prefHeight="44.0" prefWidth="190.0">
+               <children>
+                  <Label fx:id="addAppTitleLbl" text="Title: ">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="44.0" prefWidth="190.0">
+               <children>
+                  <Label fx:id="appDescriptionLabel" alignment="CENTER" text="Description: ">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="44.0" prefWidth="190.0">
+               <children>
+                  <Label fx:id="appLocationLabel" text="Location: ">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="44.0" prefWidth="190.0">
+               <children>
+                  <Label fx:id="appContactLabel" text="Contact: ">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="44.0" prefWidth="190.0">
+               <children>
+                  <Label fx:id="appTypeLabel" text="Type: ">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="44.0" prefWidth="190.0">
+               <children>
+                  <Label fx:id="appStartTimeLabel" text="Start Date &amp; Time:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="44.0" prefWidth="190.0">
+               <children>
+                  <Label fx:id="appEndTimeLabel" text="End Date &amp; Time:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="44.0" prefWidth="190.0">
+               <children>
+                  <Label fx:id="appCustomerLabel" text="Customer ID: ">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="44.0" prefWidth="190.0">
+               <children>
+                  <Label fx:id="appUserLabel" text="User ID: ">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="656.0" layoutY="120.0" prefHeight="282.0" prefWidth="190.0" spacing="10.0">
+         <children>
+            <HBox prefHeight="44.0" prefWidth="190.0">
+               <children>
+                  <TextField fx:id="appIDTF" promptText="Appointment ID" />
+               </children>
+            </HBox>
+            <HBox prefHeight="44.0" prefWidth="190.0">
+               <children>
+                  <TextField fx:id="appTitleTF" promptText="Title" />
+               </children>
+            </HBox>
+            <HBox prefHeight="44.0" prefWidth="190.0">
+               <children>
+                  <TextField fx:id="appDescriptionTF" promptText="Description" />
+               </children>
+            </HBox>
+            <HBox prefHeight="44.0" prefWidth="190.0">
+               <children>
+                  <TextField fx:id="appLocationTF" promptText="Location" />
+               </children>
+            </HBox>
+            <HBox prefHeight="44.0" prefWidth="190.0">
+               <children>
+                  <ComboBox fx:id="contactCB" prefHeight="27.0" prefWidth="160.0" promptText="Choose Contact" />
+               </children>
+            </HBox>
+            <HBox prefHeight="44.0" prefWidth="190.0">
+               <children>
+                  <TextField fx:id="appTypeTF" promptText="Type:" />
+               </children>
+            </HBox>
+            <HBox prefHeight="27.0" prefWidth="118.0">
+               <children>
+                  <DatePicker fx:id="startDP" prefHeight="27.0" prefWidth="161.0" promptText="Start Date" />
+               </children>
+            </HBox>
+            <HBox prefHeight="44.0" prefWidth="190.0">
+               <children>
+                  <DatePicker fx:id="endDP" prefHeight="27.0" prefWidth="162.0" promptText="End Date" />
+               </children>
+            </HBox>
+            <HBox prefHeight="44.0" prefWidth="190.0">
+               <children>
+                  <ComboBox fx:id="customerCB" prefHeight="27.0" prefWidth="160.0" promptText="Choose Cust. ID" />
+               </children>
+            </HBox>
+            <HBox prefHeight="44.0" prefWidth="190.0">
+               <children>
+                  <ComboBox fx:id="userCB" prefHeight="27.0" prefWidth="160.0" promptText="Choose User ID" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Label fx:id="addAppTitleLabel" alignment="CENTER" layoutX="444.0" layoutY="14.0" prefHeight="52.0" prefWidth="413.0" text="Add Appointment" underline="true">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" layoutX="542.0" layoutY="508.0" prefHeight="52.0" prefWidth="228.0" spacing="10.0">
+         <children>
+            <Button fx:id="saveButton" mnemonicParsing="false" onAction="#saveButtonPushed" prefHeight="40.0" prefWidth="100.0" text="Save" />
+            <Button fx:id="cancelButton" mnemonicParsing="false" onAction="#cancelButtonPushed" prefHeight="40.0" prefWidth="100.0" text="Cancel" />
+         </children>
+      </HBox>
+      <ComboBox fx:id="startTimeCB" layoutX="833.0" layoutY="342.0" prefHeight="18.0" prefWidth="150.0" promptText="Choose Start Time" />
+      <ComboBox fx:id="endTimeCB" layoutX="833.0" layoutY="381.0" prefHeight="18.0" prefWidth="150.0" promptText="Choose End Time" />
+   </children>
+</AnchorPane>
